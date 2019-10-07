@@ -9,5 +9,5 @@ function superbowlWin(arr) {
     return record.result === "W";
   });
   
-  
+  return winningRecord ?
 }
