@@ -5,7 +5,7 @@ function testFunc() {
 }
 
 function superbowlWin(arr) {
-  return arr.find(record => {
+  let winningRecord = arr.find(record => {
     return record.result === "W";
   }).year;
 }
